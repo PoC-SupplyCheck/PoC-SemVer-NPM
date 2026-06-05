@@ -1,0 +1,22 @@
+{
+  "name": "demo-supply-chain-risk",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable dependency configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "lodash": "^4.17.0",
+    "axios": "~1.0.0",
+    "debug": "*",
+    "moment": ">=2.0.0",
+    "custom-lib": "github:user/custom-lib#main",
+    "another-lib": "git+https://github.com/user/another-lib.git"
+  },
+  "devDependencies": {
+    "jest": "latest",
+    "webpack": "^5.0.0"
+  }
+}
